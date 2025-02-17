@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /*?*
+
+# Разрешаем индексацию основных страниц
+Allow: /index.html
+Allow: /*.js
+Allow: /*.css
+Allow: /images/
+
+# Специальные правила для Яндекс.Бота
+User-agent: Yandex
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /*?*
+Clean-param: utm_source&utm_medium&utm_campaign
+Clean-param: yclid&ymclid
+Host: https://digitalgoods.pages.dev
+
+# Указываем пути к sitemap (если будете создавать в будущем)
+# Sitemap: https://digitalgoods.pages.dev/sitemap.xml
+
+# Правила для изображений
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.gif
+Allow: /*.png
+Allow: /*.webp
+Disallow: /
