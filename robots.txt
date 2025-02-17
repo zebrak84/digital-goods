@@ -22,10 +22,10 @@ Disallow: /includes/
 Disallow: /*?*
 Clean-param: utm_source&utm_medium&utm_campaign
 Clean-param: yclid&ymclid
-Host: https://digitalgoods.pages.dev
+Host: https://zebrak84.github.io/digital-goods
 
 # Указываем пути к sitemap (если будете создавать в будущем)
-# Sitemap: https://digitalgoods.pages.dev/sitemap.xml
+# Sitemap: https://zebrak84.github.io/digital-goods/sitemap.xml
 
 # Правила для изображений
 User-agent: Googlebot-Image
